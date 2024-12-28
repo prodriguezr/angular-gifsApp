@@ -1,4 +1,4 @@
-# GiftsApp
+# gifsApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
@@ -57,3 +57,8 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+This Angular application connects to the Giphy API (https://developers.giphy.com), for which you must:
+
+- Create an account to obtain the respective key.
+- The key should be placed in the environment.ts file of the gifs module.
