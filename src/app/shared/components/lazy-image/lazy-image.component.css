@@ -1,0 +1,27 @@
+#loader {
+  height: 80px;
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+  width: auto; /* Mantener proporciones automáticamente */
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /*
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  min-height: 200px; */
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

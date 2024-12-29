@@ -50,8 +50,6 @@ export class GifsService {
       .get<GiphySearchResponse>(GIPHY_API_URL + '/search', { params })
       .subscribe((resp) => {
         this.gifList = resp.data;
-
-        console.log({ gifs: this.gifList });
       });
   }
 
